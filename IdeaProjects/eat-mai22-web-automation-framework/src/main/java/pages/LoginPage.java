@@ -31,13 +31,13 @@ public class LoginPage extends CommonAPI{
 
     public boolean checkUsernameFieldPresence(){
         boolean checkUsernameFieldPresence = isPresent(usernameField);
-        LOG.info("login button presence: "+checkUsernameFieldPresence);
+        LOG.info("username field presence: "+checkUsernameFieldPresence);
         return isPresent(usernameField);
     }
 
     public boolean checkPasswordFieldPresence(){
         boolean checkPasswordFieldPresence = isPresent(passwordField);
-        LOG.info("login button presence: "+checkPasswordFieldPresence);
+        LOG.info("password field presence: "+checkPasswordFieldPresence);
         return isPresent(passwordField);
     }
 
